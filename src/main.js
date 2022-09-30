@@ -5,7 +5,7 @@ const IP_ADDRESS = process.env.IP_ADDRESS || 'localhost';
 const PORT = process.env.PORT || 3001;
 const session = require('express-session');
 const passport = require('passport');
-const DiscordStrategy = require('./strategies/discordstrategy')
+// const DiscordStrategy = require('./strategies/discordstrategy')
 const db = require('./database/database');
 const path = require('path');
 

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Consolas;
+        background-image: url('home-background.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 100%;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #000;
+    }
+
+    .topnav img {
+        float: left;
+        padding: 9px 8px 8px 9px;
+    }
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 22px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .topnav a:hover {
+        background-color: #222;
+    }
+
+    .topnav a.active {
+        float: right;
+        background-color: #530000;
+    }
+
+    .topnav a.active:hover {
+        background-color: #6f0000;
+    }
+
+    .topnav a.img {
+        padding: 0px 0px;
+    }
+</style>
+
+<body>
+    <div class="topnav">
+        <a class="img" href="/"><img src="Icon.png" alt="Werewolf" href="/" height="46" width="46"></a>
+        <a class="active" href="/dashboard/logout"><b>Log out</b></a>
+    </div>
+</body>
